@@ -20,7 +20,7 @@ import DarkIcon from '@material-ui/icons/Brightness2';
 import LightIcon from '@material-ui/icons/WbSunny';
 import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { AppTheme } from '@backstage/core-plugin-api';
+import { AppTheme } from '@ceremium/core-plugin-api';
 
 export const themes: AppTheme[] = [
   {

@@ -19,13 +19,13 @@ import {
   AppTheme,
   BackstagePlugin,
   IconComponent,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import {
   AppComponents,
   AppOptions,
   AppIcons,
   createSpecializedApp,
-} from '@backstage/core-app-api';
+} from '@ceremium/core-app-api';
 
 /**
  * Creates a new Backstage App using a default set of components, icons and themes unless

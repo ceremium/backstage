@@ -24,7 +24,7 @@ import {
   SubRouteRef,
   ExternalRouteRef,
   IdentityApi,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { AppConfig } from '@backstage/config';
 
 /**

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { SessionState } from '@backstage/core-plugin-api';
+import { SessionState } from '@ceremium/core-plugin-api';
 import { Observable } from '@backstage/types';
 import {
   SessionManager,

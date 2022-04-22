@@ -18,7 +18,7 @@ import {
   IdentityApi,
   ProfileInfo,
   BackstageUserIdentity,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 
 function mkError(thing: string) {
   return new Error(

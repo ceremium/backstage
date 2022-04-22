@@ -15,7 +15,7 @@
  */
 
 import { Config } from '@backstage/config';
-import { DiscoveryApi, IdentityApi } from '@backstage/core-plugin-api';
+import { DiscoveryApi, IdentityApi } from '@ceremium/core-plugin-api';
 import { IdentityAuthInjectorFetchMiddleware } from './IdentityAuthInjectorFetchMiddleware';
 import { PluginProtocolResolverFetchMiddleware } from './PluginProtocolResolverFetchMiddleware';
 import { FetchMiddleware } from './types';

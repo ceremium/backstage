@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { AppTheme } from '@backstage/core-plugin-api';
+import { AppTheme } from '@ceremium/core-plugin-api';
 import { AppThemeSelector } from './AppThemeSelector';
 
 describe('AppThemeSelector', () => {

@@ -18,7 +18,7 @@ import React from 'react';
 import SettingsIcon from '@material-ui/icons/Settings';
 import { settingsRouteRef } from '../plugin';
 import { SidebarItem } from '@backstage/core-components';
-import { useRouteRef, IconComponent } from '@backstage/core-plugin-api';
+import { useRouteRef, IconComponent } from '@ceremium/core-plugin-api';
 
 type SettingsProps = {
   icon?: IconComponent;

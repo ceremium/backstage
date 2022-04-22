@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { microsoftAuthApiRef } from '@backstage/core-plugin-api';
+import { microsoftAuthApiRef } from '@ceremium/core-plugin-api';
 import { OAuth2 } from '../oauth2';
 import { OAuthApiCreateOptions } from '../types';
 

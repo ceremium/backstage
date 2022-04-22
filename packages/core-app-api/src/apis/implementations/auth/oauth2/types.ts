@@ -17,7 +17,7 @@
 import {
   ProfileInfo,
   BackstageIdentityResponse,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 
 export type { OAuth2CreateOptions } from './OAuth2';
 /**

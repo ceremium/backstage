@@ -23,8 +23,8 @@ import { fireEvent } from '@testing-library/react';
 import React from 'react';
 import { UserSettingsAuthProviders } from './UserSettingsAuthProviders';
 
-import { ApiProvider, ConfigReader } from '@backstage/core-app-api';
-import { configApiRef, googleAuthApiRef } from '@backstage/core-plugin-api';
+import { ApiProvider, ConfigReader } from '@ceremium/core-app-api';
+import { configApiRef, googleAuthApiRef } from '@ceremium/core-plugin-api';
 
 const mockSignInHandler = jest.fn().mockReturnValue('');
 const mockGoogleAuth = {

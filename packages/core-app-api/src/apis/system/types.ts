@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { ApiFactory, ApiRef } from '@backstage/core-plugin-api';
+import { ApiFactory, ApiRef } from '@ceremium/core-plugin-api';
 
 /**
  * @public

@@ -32,7 +32,7 @@ import {
   createExternalRouteRef,
   RouteRef,
   ExternalRouteRef,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { RoutingProvider } from './RoutingProvider';
 import {
   routePathCollector,

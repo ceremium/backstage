@@ -45,7 +45,7 @@ import {
   IdentityApi,
   identityApiRef,
   BackstagePlugin,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { ApiFactoryRegistry, ApiResolver } from '../apis/system';
 import {
   childDiscoverer,

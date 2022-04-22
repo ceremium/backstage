@@ -21,7 +21,7 @@ import {
   withApis,
   ApiHolder,
   ApiRef,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { ApiProvider } from './ApiProvider';
 import { ApiRegistry } from './ApiRegistry';
 import { render } from '@testing-library/react';

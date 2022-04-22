@@ -22,7 +22,7 @@ import {
   SessionApi,
   SessionState,
   BackstageIdentityResponse,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { Observable } from '@backstage/types';
 import { DirectAuthConnector } from '../../../../lib/AuthConnector';
 import {

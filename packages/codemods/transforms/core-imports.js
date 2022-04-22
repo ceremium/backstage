@@ -166,7 +166,7 @@ const symbolTable = {
     'useQueryParamState',
     'useSupportConfig',
   ],
-  '@backstage/core-plugin-api': [
+  '@ceremium/core-plugin-api': [
     'AlertApi',
     'AlertMessage',
     'AnyApiFactory',
@@ -266,6 +266,7 @@ const symbolTable = {
     'useRouteRef',
     'useRouteRefParams',
     'withApis',
+    'openAMAuthApiRef',
   ],
 };
 

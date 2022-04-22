@@ -18,7 +18,7 @@ import {
   ErrorApi,
   ErrorApiError,
   ErrorApiErrorContext,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { Observable } from '@backstage/types';
 import { PublishSubject } from '../../../lib/subjects';
 

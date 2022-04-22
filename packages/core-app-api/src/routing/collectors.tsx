@@ -19,7 +19,7 @@ import {
   RouteRef,
   getComponentData,
   BackstagePlugin,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { BackstageRouteObject } from './types';
 import { createCollector } from '../extensions/traversal';
 import { FeatureFlagged, FeatureFlaggedProps } from './FeatureFlagged';

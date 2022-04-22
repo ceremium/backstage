@@ -33,7 +33,8 @@ import {
   AtlassianAuth,
   createFetchApi,
   FetchMiddlewares,
-} from '@backstage/core-app-api';
+  OpenAMAuth,
+} from '@ceremium/core-app-api';
 
 import {
   createApiFactory,
@@ -54,7 +55,8 @@ import {
   oneloginAuthApiRef,
   bitbucketAuthApiRef,
   atlassianAuthApiRef,
-} from '@backstage/core-plugin-api';
+  openAMAuthApiRef,
+} from '@ceremium/core-plugin-api';
 import {
   permissionApiRef,
   IdentityPermissionApi,
@@ -243,5 +245,20 @@ export const apis = [
     },
     factory: ({ config, discovery, identity }) =>
       IdentityPermissionApi.create({ config, discovery, identity }),
+  }),
+  createApiFactory({
+    api: openAMAuthApiRef,
+    deps: {
+      discoveryApi: discoveryApiRef,
+      oauthRequestApi: oauthRequestApiRef,
+      configApi: configApiRef,
+    },
+    factory: ({ discoveryApi, oauthRequestApi, configApi }) => {
+      return OpenAMAuth.create({
+        discoveryApi,
+        oauthRequestApi,
+        environment: configApi.getOptionalString('auth.environment'),
+      });
+    },
   }),
 ];

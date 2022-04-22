@@ -19,7 +19,7 @@ import {
   identityApiRef,
   ProfileInfo,
   useApi,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { useEffect } from 'react';
 import useAsync from 'react-use/lib/useAsync';
 

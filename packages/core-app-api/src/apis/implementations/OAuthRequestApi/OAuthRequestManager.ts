@@ -19,7 +19,7 @@ import {
   PendingOAuthRequest,
   OAuthRequester,
   OAuthRequesterOptions,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { Observable } from '@backstage/types';
 import { OAuthPendingRequests, PendingRequest } from './OAuthPendingRequests';
 import { BehaviorSubject } from '../../../lib/subjects';

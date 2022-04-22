@@ -18,7 +18,7 @@ import {
   featureFlagsApiRef,
   useApi,
   attachComponentData,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import React, { ReactNode } from 'react';
 
 /**

@@ -18,7 +18,7 @@ import { render, RenderResult } from '@testing-library/react';
 import React, { ReactNode } from 'react';
 import { MemoryRouter, Route, Routes, useOutlet } from 'react-router-dom';
 import { LocalStorageFeatureFlags } from '../apis';
-import { featureFlagsApiRef } from '@backstage/core-plugin-api';
+import { featureFlagsApiRef } from '@ceremium/core-plugin-api';
 import { AppContext } from '../app';
 import { AppContextProvider } from '../app/AppContext';
 import { FlatRoutes } from './FlatRoutes';

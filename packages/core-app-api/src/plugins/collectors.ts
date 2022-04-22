@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { BackstagePlugin, getComponentData } from '@backstage/core-plugin-api';
+import { BackstagePlugin, getComponentData } from '@ceremium/core-plugin-api';
 import { createCollector } from '../extensions/traversal';
 
 export const pluginCollector = createCollector(

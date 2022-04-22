@@ -16,7 +16,7 @@
 
 import React, { ReactNode } from 'react';
 import { useRoutes } from 'react-router-dom';
-import { useApp, useElementFilter } from '@backstage/core-plugin-api';
+import { useApp, useElementFilter } from '@ceremium/core-plugin-api';
 
 type RouteObject = {
   path: string;

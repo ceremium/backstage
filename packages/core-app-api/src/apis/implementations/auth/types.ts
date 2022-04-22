@@ -18,7 +18,7 @@ import {
   AuthProviderInfo,
   DiscoveryApi,
   OAuthRequestApi,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 
 /**
  * Create options for OAuth APIs.

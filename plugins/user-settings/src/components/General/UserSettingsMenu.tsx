@@ -18,7 +18,7 @@ import React from 'react';
 import { IconButton, ListItemIcon, Menu, MenuItem } from '@material-ui/core';
 import SignOutIcon from '@material-ui/icons/MeetingRoom';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
-import { identityApiRef, useApi } from '@backstage/core-plugin-api';
+import { identityApiRef, useApi } from '@ceremium/core-plugin-api';
 
 export const UserSettingsMenu = () => {
   const identityApi = useApi(identityApiRef);

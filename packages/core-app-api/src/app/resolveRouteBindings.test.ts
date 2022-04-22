@@ -17,7 +17,7 @@
 import {
   createExternalRouteRef,
   createRouteRef,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { resolveRouteBindings } from './resolveRouteBindings';
 
 describe('resolveRouteBindings', () => {

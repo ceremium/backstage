@@ -21,7 +21,7 @@ import {
   AnalyticsContext,
   CommonAnalyticsContext,
   RouteRef,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { routeObjectCollector } from './collectors';
 import {
   childDiscoverer,

@@ -15,7 +15,7 @@
  */
 
 import { RefreshingAuthSessionManager } from './RefreshingAuthSessionManager';
-import { SessionState } from '@backstage/core-plugin-api';
+import { SessionState } from '@ceremium/core-plugin-api';
 
 const defaultOptions = {
   sessionScopes: (session: { scopes: Set<string> }) => session.scopes,

@@ -20,7 +20,7 @@ import {
   createRouteRef,
   createRoutableExtension,
   createComponentExtension,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { MemoryRouter, Routes, Route } from 'react-router-dom';
 import {
   traverseElementTree,

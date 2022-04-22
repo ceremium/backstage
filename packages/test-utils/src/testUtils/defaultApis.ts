@@ -31,7 +31,8 @@ import {
   OneLoginAuth,
   UnhandledErrorForwarder,
   AtlassianAuth,
-} from '@backstage/core-app-api';
+  OpenAMAuth,
+} from '@ceremium/core-app-api';
 
 import {
   createApiFactory,
@@ -50,7 +51,8 @@ import {
   oneloginAuthApiRef,
   bitbucketAuthApiRef,
   atlassianAuthApiRef,
-} from '@backstage/core-plugin-api';
+  openAMAuthApiRef,
+} from '@ceremium/core-plugin-api';
 
 // TODO(Rugvip): This is just a copy of the createApp default APIs for now, but
 //               we should clean up this list a bit move more things over to mocks.
@@ -189,6 +191,21 @@ export const defaultApis = [
     },
     factory: ({ discoveryApi, oauthRequestApi, configApi }) => {
       return AtlassianAuth.create({
+        discoveryApi,
+        oauthRequestApi,
+        environment: configApi.getOptionalString('auth.environment'),
+      });
+    },
+  }),
+  createApiFactory({
+    api: openAMAuthApiRef,
+    deps: {
+      discoveryApi: discoveryApiRef,
+      oauthRequestApi: oauthRequestApiRef,
+      configApi: configApiRef,
+    },
+    factory: ({ discoveryApi, oauthRequestApi, configApi }) => {
+      return OpenAMAuth.create({
         discoveryApi,
         oauthRequestApi,
         environment: configApi.getOptionalString('auth.environment'),

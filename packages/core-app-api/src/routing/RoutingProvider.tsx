@@ -19,7 +19,7 @@ import {
   ExternalRouteRef,
   RouteRef,
   SubRouteRef,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import {
   createVersionedValueMap,
   createVersionedContext,

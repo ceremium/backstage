@@ -19,7 +19,7 @@ import {
   OAuthRequestApi,
   AuthProviderInfo,
   DiscoveryApi,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { OAuth2 } from '../oauth2';
 
 /**

@@ -18,7 +18,7 @@ import {
   RouteRef,
   SubRouteRef,
   ExternalRouteRef,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { AppOptions, AppRouteBinder } from './types';
 
 export function resolveRouteBindings(bindRoutes: AppOptions['bindRoutes']) {

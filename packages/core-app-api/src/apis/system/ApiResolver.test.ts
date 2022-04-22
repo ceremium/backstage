@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { createApiRef } from '@backstage/core-plugin-api';
+import { createApiRef } from '@ceremium/core-plugin-api';
 import { ApiResolver } from './ApiResolver';
 import { ApiFactoryRegistry } from './ApiFactoryRegistry';
 

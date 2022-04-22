@@ -11,7 +11,7 @@
 - a422d7ce5e: chore(deps): bump `@testing-library/react` from 11.2.6 to 12.1.3
 - f24ef7864e: Minor typo fixes
 - Updated dependencies
-  - @backstage/core-plugin-api@1.0.0
+  - @ceremium/core-plugin-api@1.0.0
   - @backstage/version-bridge@1.0.0
   - @backstage/config@1.0.0
   - @backstage/types@1.0.0
@@ -28,14 +28,14 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/core-plugin-api@0.8.0
+  - @ceremium/core-plugin-api@0.8.0
 
 ## 0.5.4
 
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/core-plugin-api@0.7.0
+  - @ceremium/core-plugin-api@0.7.0
 
 ## 0.5.3
 
@@ -44,7 +44,7 @@
 - 1ed305728b: Bump `node-fetch` to version 2.6.7 and `cross-fetch` to version 3.1.5
 - c77c5c7eb6: Added `backstage.role` to `package.json`
 - Updated dependencies
-  - @backstage/core-plugin-api@0.6.1
+  - @ceremium/core-plugin-api@0.6.1
   - @backstage/config@0.1.14
   - @backstage/types@0.1.2
   - @backstage/version-bridge@0.1.2
@@ -84,7 +84,7 @@
 - fb565073ec: Add an `allowUrl` callback option to `FetchMiddlewares.injectIdentityAuth`
 - f050eec2c0: Added validation during the application startup that detects if there are any plugins present that have not had their required external routes bound. Failing the validation will cause a hard crash as it is a programmer error. It lets you detect early on that there are dangling routes, rather than having them cause an error later on.
 - Updated dependencies
-  - @backstage/core-plugin-api@0.6.0
+  - @ceremium/core-plugin-api@0.6.0
   - @backstage/config@0.1.13
 
 ## 0.5.0-next.0
@@ -96,7 +96,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/core-plugin-api@0.6.0-next.0
+  - @ceremium/core-plugin-api@0.6.0-next.0
   - @backstage/config@0.1.13-next.0
 
 ## 0.4.0
@@ -114,7 +114,7 @@
 - 784d8078ab: Removed direct and transitive MUI dependencies.
 - Updated dependencies
   - @backstage/config@0.1.12
-  - @backstage/core-plugin-api@0.5.0
+  - @ceremium/core-plugin-api@0.5.0
 
 ## 0.3.1
 
@@ -122,14 +122,14 @@
 
 - 4ce51ab0f1: Internal refactor of the `react-use` imports to use `react-use/lib/*` instead.
 - Updated dependencies
-  - @backstage/core-plugin-api@0.4.1
+  - @ceremium/core-plugin-api@0.4.1
   - @backstage/core-components@0.8.3
 
 ## 0.3.0
 
 ### Minor Changes
 
-- a195284c7b: Updated `WebStorageApi` to reflect the `StorageApi` changes in `@backstage/core-plugin-api`.
+- a195284c7b: Updated `WebStorageApi` to reflect the `StorageApi` changes in `@ceremium/core-plugin-api`.
 - b3605da81c: - Removed deprecated definition `createApp` from `@backstage/core-app-api` which has been replaced by `@backstage/app-defaults#createApp`
   - Removed deprecated type `BackstagePluginWithAnyOutput`
   - Removed deprecated constructors for `GithubAuth`, `OAuth2`, and `SamlAuth` as the `create` method should be used instead
@@ -143,7 +143,7 @@
 - 518ddc00bc: Schema-validate local storage cached session info on load
 - Updated dependencies
   - @backstage/app-defaults@0.1.3
-  - @backstage/core-plugin-api@0.4.0
+  - @ceremium/core-plugin-api@0.4.0
   - @backstage/core-components@0.8.2
 
 ## 0.2.1
@@ -151,9 +151,9 @@
 ### Patch Changes
 
 - c11ce4f552: Deprecated `Auth0Auth`, pointing to using `OAuth2` directly instead.
-- 9d6503e86c: Switched out usage of deprecated `OAuthRequestApi` types from `@backstage/core-plugin-api`.
+- 9d6503e86c: Switched out usage of deprecated `OAuthRequestApi` types from `@ceremium/core-plugin-api`.
 - Updated dependencies
-  - @backstage/core-plugin-api@0.3.1
+  - @ceremium/core-plugin-api@0.3.1
   - @backstage/core-components@0.8.1
 
 ## 0.2.0
@@ -198,7 +198,7 @@
 - dcd1a0c3f4: Minor improvement to the API reports, by not unpacking arguments directly
 - Updated dependencies
   - @backstage/core-components@0.8.0
-  - @backstage/core-plugin-api@0.3.0
+  - @ceremium/core-plugin-api@0.3.0
   - @backstage/app-defaults@0.1.2
   - @backstage/version-bridge@0.1.1
 
@@ -210,7 +210,7 @@
 - Updated dependencies
   - @backstage/core-components@0.7.6
   - @backstage/theme@0.2.14
-  - @backstage/core-plugin-api@0.2.2
+  - @ceremium/core-plugin-api@0.2.2
 
 ## 0.1.23
 
@@ -290,7 +290,7 @@
   If your app is still using the `ApiRegistry` to construct the `apis` for `createApp`, we recommend that you move over to use the new method of supplying API factories instead, using `createApiFactory`.
 
 - Updated dependencies
-  - @backstage/core-plugin-api@0.2.1
+  - @ceremium/core-plugin-api@0.2.1
   - @backstage/core-components@0.7.5
 
 ## 0.1.22
@@ -315,7 +315,7 @@
 - 475edb5bc5: move the BehaviorSubject init into the constructor
 - Updated dependencies
   - @backstage/core-components@0.7.4
-  - @backstage/core-plugin-api@0.2.0
+  - @ceremium/core-plugin-api@0.2.0
   - @backstage/app-defaults@0.1.1
 
 ## 0.1.20
@@ -323,11 +323,11 @@
 ### Patch Changes
 
 - 78c512ce8f: I have added default icons for the catalog, scaffolder, techdocs, and search.
-- 8b4284cd5c: Improve API documentation for @backstage/core-plugin-api
+- 8b4284cd5c: Improve API documentation for @ceremium/core-plugin-api
 - Updated dependencies
   - @backstage/core-components@0.7.3
   - @backstage/theme@0.2.13
-  - @backstage/core-plugin-api@0.1.13
+  - @ceremium/core-plugin-api@0.1.13
 
 ## 0.1.19
 
@@ -341,7 +341,7 @@
   - @backstage/config@0.1.11
   - @backstage/theme@0.2.12
   - @backstage/core-components@0.7.2
-  - @backstage/core-plugin-api@0.1.12
+  - @ceremium/core-plugin-api@0.1.12
 
 ## 0.1.18
 
@@ -356,7 +356,7 @@
 - 36e67d2f24: Internal updates to apply more strict checks to throw errors.
 - Updated dependencies
   - @backstage/core-components@0.7.1
-  - @backstage/core-plugin-api@0.1.11
+  - @ceremium/core-plugin-api@0.1.11
 
 ## 0.1.17
 
@@ -402,7 +402,7 @@
   session locally.
 - Updated dependencies
   - @backstage/core-components@0.6.1
-  - @backstage/core-plugin-api@0.1.10
+  - @ceremium/core-plugin-api@0.1.10
 
 ## 0.1.15
 
@@ -410,7 +410,7 @@
 
 - 0c4ee1876f: Enables late registration of plugins into the application by updating ApiHolder when additional plugins have been added in.
 - Updated dependencies
-  - @backstage/core-plugin-api@0.1.9
+  - @ceremium/core-plugin-api@0.1.9
   - @backstage/core-components@0.6.0
 
 ## 0.1.14
@@ -429,7 +429,7 @@
 - bd1981d609: Allow users to specify their own AppThemeProvider
 - Updated dependencies
   - @backstage/core-components@0.4.2
-  - @backstage/core-plugin-api@0.1.8
+  - @ceremium/core-plugin-api@0.1.8
 
 ## 0.1.12
 
@@ -439,7 +439,7 @@
 - Updated dependencies
   - @backstage/core-components@0.4.1
   - @backstage/config@0.1.9
-  - @backstage/core-plugin-api@0.1.7
+  - @ceremium/core-plugin-api@0.1.7
 
 ## 0.1.11
 
@@ -481,7 +481,7 @@
 - 56c773909: Switched `@types/react` dependency to request `*` rather than a specific version.
 - Updated dependencies
   - @backstage/core-components@0.3.1
-  - @backstage/core-plugin-api@0.1.6
+  - @ceremium/core-plugin-api@0.1.6
 
 ## 0.1.7
 
@@ -490,7 +490,7 @@
 - Updated dependencies
   - @backstage/core-components@0.3.0
   - @backstage/config@0.1.6
-  - @backstage/core-plugin-api@0.1.5
+  - @ceremium/core-plugin-api@0.1.5
 
 ## 0.1.6
 
@@ -504,7 +504,7 @@
   - Migration guide is here: https://material-table-core.com/docs/breaking-changes
 - Updated dependencies
   - @backstage/core-components@0.2.0
-  - @backstage/core-plugin-api@0.1.4
+  - @ceremium/core-plugin-api@0.1.4
   - @backstage/theme@0.2.9
 
 ## 0.1.5
@@ -530,7 +530,7 @@
 - dc3e7ce68: Introducing new UnhandledErrorForwarder installed by default. For catching unhandled promise rejections, you can override the API to align with general error handling.
 - 5f4339b8c: Adding `FeatureFlag` component and treating `FeatureFlags` as first class citizens to composability API
 - Updated dependencies
-  - @backstage/core-plugin-api@0.1.3
+  - @ceremium/core-plugin-api@0.1.3
 
 ## 0.1.2
 
@@ -567,13 +567,13 @@
   - `resetError`. A callback that will simply attempt to mount the children of the error boundary again.
   - `plugin`. A `BackstagePlugin` that can be used to look up info to be presented in the error message. For instance, you may want to keep a map of your internal plugins and team names or slack channels and present these when an error occurs. Typically, you'll do that by getting the plugin ID with `plugin.getId()`.
 
-- da8cba44f: Deprecate and disable the extension creation methods, which were added to this package by mistake and should only exist within `@backstage/core-plugin-api`.
+- da8cba44f: Deprecate and disable the extension creation methods, which were added to this package by mistake and should only exist within `@ceremium/core-plugin-api`.
 - 9bca2a252: Update `createApp` options to allow plugins with unknown output types in order to improve forwards and backwards compatibility.
 - Updated dependencies [e47336ea4]
 - Updated dependencies [75b8537ce]
 - Updated dependencies [da8cba44f]
   - @backstage/core-components@0.1.2
-  - @backstage/core-plugin-api@0.1.2
+  - @ceremium/core-plugin-api@0.1.2
 
 ## 0.1.1
 
@@ -582,6 +582,6 @@
 - e7c5e4b30: Update installation instructions in README.
 - Updated dependencies [031ccd45f]
 - Updated dependencies [e7c5e4b30]
-  - @backstage/core-plugin-api@0.1.1
+  - @ceremium/core-plugin-api@0.1.1
   - @backstage/core-components@0.1.1
   - @backstage/theme@0.2.8

@@ -17,7 +17,7 @@
 import {
   OAuthRequestApi,
   OAuthRequesterOptions,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { OAuthRequestManager } from './OAuthRequestManager';
 
 export default class MockOAuthApi implements OAuthRequestApi {

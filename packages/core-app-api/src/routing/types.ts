@@ -19,7 +19,7 @@ import {
   SubRouteRef,
   ExternalRouteRef,
   BackstagePlugin,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { getOrCreateGlobalSingleton } from '@backstage/version-bridge';
 
 type RouteRefType = Exclude<

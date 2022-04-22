@@ -19,7 +19,7 @@ import { List } from '@material-ui/core';
 import { EmptyProviders } from './EmptyProviders';
 import { DefaultProviderSettings } from './DefaultProviderSettings';
 
-import { configApiRef, useApi } from '@backstage/core-plugin-api';
+import { configApiRef, useApi } from '@ceremium/core-plugin-api';
 import { InfoCard } from '@backstage/core-components';
 
 type Props = {

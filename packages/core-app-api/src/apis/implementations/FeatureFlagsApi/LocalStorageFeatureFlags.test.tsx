@@ -15,7 +15,7 @@
  */
 
 import { LocalStorageFeatureFlags } from './LocalStorageFeatureFlags';
-import { FeatureFlagState, FeatureFlagsApi } from '@backstage/core-plugin-api';
+import { FeatureFlagState, FeatureFlagsApi } from '@ceremium/core-plugin-api';
 
 describe('FeatureFlags', () => {
   beforeEach(() => {

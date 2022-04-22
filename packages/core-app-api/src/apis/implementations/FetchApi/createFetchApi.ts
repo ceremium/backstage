@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { FetchApi } from '@backstage/core-plugin-api';
+import { FetchApi } from '@ceremium/core-plugin-api';
 import { FetchMiddleware } from './types';
 
 /**

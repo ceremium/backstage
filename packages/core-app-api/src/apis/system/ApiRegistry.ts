@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { ApiRef, ApiHolder } from '@backstage/core-plugin-api';
+import { ApiRef, ApiHolder } from '@ceremium/core-plugin-api';
 
 type ApiImpl<T = unknown> = readonly [ApiRef<T>, T];
 

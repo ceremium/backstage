@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { DiscoveryApi } from '@backstage/core-plugin-api';
+import { DiscoveryApi } from '@ceremium/core-plugin-api';
 
 const ERROR_PREFIX = 'Invalid discovery URL pattern,';
 

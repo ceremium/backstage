@@ -20,7 +20,7 @@ import {
   ApiFactory,
   AnyApiRef,
   AnyApiFactory,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 
 /**
  * Scope type when registering API factories.

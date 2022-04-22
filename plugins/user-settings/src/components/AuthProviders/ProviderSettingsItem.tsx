@@ -28,7 +28,7 @@ import {
   useApi,
   IconComponent,
   SessionState,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 
 type Props = {
   title: string;

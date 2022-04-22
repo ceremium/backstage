@@ -19,7 +19,7 @@ import {
   OAuthRequestApi,
   AuthProviderInfo,
   DiscoveryApi,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { showLoginPopup } from '../loginPopup';
 import { AuthConnector, CreateSessionOptions } from './types';
 

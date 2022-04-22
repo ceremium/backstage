@@ -29,7 +29,7 @@ import {
   RouteRef,
   ExternalRouteRef,
   SubRouteRef,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 
 // Joins a list of paths together, avoiding trailing and duplicate slashes
 function joinPaths(...paths: string[]): string {

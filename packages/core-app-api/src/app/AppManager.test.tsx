@@ -34,7 +34,7 @@ import {
   createSubRouteRef,
   createRoutableExtension,
   analyticsApiRef,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { AppManager } from './AppManager';
 import { AppComponents, AppIcons } from './types';
 

@@ -19,7 +19,7 @@ import {
   FeatureFlagsApi,
   FeatureFlag,
   FeatureFlagsSaveOptions,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 
 export function validateFlagName(name: string): void {
   if (name.length < 3) {

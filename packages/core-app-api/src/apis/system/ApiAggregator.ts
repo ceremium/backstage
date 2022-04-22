@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { ApiRef, ApiHolder } from '@backstage/core-plugin-api';
+import { ApiRef, ApiHolder } from '@ceremium/core-plugin-api';
 
 /**
  * An ApiHolder that queries multiple other holders from for

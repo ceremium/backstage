@@ -7,7 +7,7 @@
 - a422d7ce5e: chore(deps): bump `@testing-library/react` from 11.2.6 to 12.1.3
 - Updated dependencies
   - @backstage/core-components@0.9.2
-  - @backstage/core-plugin-api@1.0.0
+  - @ceremium/core-plugin-api@1.0.0
 
 ## 0.4.1
 
@@ -33,7 +33,7 @@
 
 - Updated dependencies
   - @backstage/core-components@0.9.0
-  - @backstage/core-plugin-api@0.8.0
+  - @ceremium/core-plugin-api@0.8.0
 
 ## 0.3.21
 
@@ -41,7 +41,7 @@
 
 - Updated dependencies
   - @backstage/core-components@0.8.10
-  - @backstage/core-plugin-api@0.7.0
+  - @ceremium/core-plugin-api@0.7.0
 
 ## 0.3.20
 
@@ -52,7 +52,7 @@
 - 12dd25c2a1: Updated example code for registering feature flags in the `EmptyFlags` component
 - Updated dependencies
   - @backstage/core-components@0.8.9
-  - @backstage/core-plugin-api@0.6.1
+  - @ceremium/core-plugin-api@0.6.1
   - @backstage/theme@0.2.15
 
 ## 0.3.19
@@ -93,7 +93,7 @@
 
 - Updated dependencies
   - @backstage/core-components@0.8.5
-  - @backstage/core-plugin-api@0.6.0
+  - @ceremium/core-plugin-api@0.6.0
 
 ## 0.3.17-next.0
 
@@ -105,7 +105,7 @@
 
 - Updated dependencies
   - @backstage/core-components@0.8.5-next.0
-  - @backstage/core-plugin-api@0.6.0-next.0
+  - @ceremium/core-plugin-api@0.6.0-next.0
 
 ## 0.3.16
 
@@ -113,7 +113,7 @@
 
 - Updated dependencies
   - @backstage/core-components@0.8.4
-  - @backstage/core-plugin-api@0.5.0
+  - @ceremium/core-plugin-api@0.5.0
 
 ## 0.3.15
 
@@ -121,7 +121,7 @@
 
 - 4ce51ab0f1: Internal refactor of the `react-use` imports to use `react-use/lib/*` instead.
 - Updated dependencies
-  - @backstage/core-plugin-api@0.4.1
+  - @ceremium/core-plugin-api@0.4.1
   - @backstage/core-components@0.8.3
 
 ## 0.3.14
@@ -130,7 +130,7 @@
 
 - 2a374057f5: Fix undefined identity bug in UserSettingsProfileCard caused by using deprecated methods of the IdentityApi
 - Updated dependencies
-  - @backstage/core-plugin-api@0.4.0
+  - @ceremium/core-plugin-api@0.4.0
   - @backstage/core-components@0.8.2
 
 ## 0.3.13
@@ -140,7 +140,7 @@
 - cd450844f6: Moved React dependencies to `peerDependencies` and allow both React v16 and v17 to be used.
 - Updated dependencies
   - @backstage/core-components@0.8.0
-  - @backstage/core-plugin-api@0.3.0
+  - @ceremium/core-plugin-api@0.3.0
 
 ## 0.3.12
 
@@ -150,7 +150,7 @@
 - Updated dependencies
   - @backstage/core-components@0.7.6
   - @backstage/theme@0.2.14
-  - @backstage/core-plugin-api@0.2.2
+  - @ceremium/core-plugin-api@0.2.2
 
 ## 0.3.11
 
@@ -160,7 +160,7 @@
 - 274a4fc633: Add Props Icon for Sidebar Item SidebarSearchField and Settings
 - Updated dependencies
   - @backstage/core-components@0.7.4
-  - @backstage/core-plugin-api@0.2.0
+  - @ceremium/core-plugin-api@0.2.0
 
 ## 0.3.10
 
@@ -175,7 +175,7 @@
 
 - Updated dependencies
   - @backstage/core-components@0.7.1
-  - @backstage/core-plugin-api@0.1.11
+  - @ceremium/core-plugin-api@0.1.11
 
 ## 0.3.9
 
@@ -199,7 +199,7 @@
 - 81a41ec249: Added a `name` key to all extensions in order to improve Analytics API metadata.
 - Updated dependencies
   - @backstage/core-components@0.6.1
-  - @backstage/core-plugin-api@0.1.10
+  - @ceremium/core-plugin-api@0.1.10
 
 ## 0.3.7
 
@@ -207,7 +207,7 @@
 
 - 79ebee7a6b: Add "data-testid" for e2e tests and fix techdocs entity not found error.
 - Updated dependencies
-  - @backstage/core-plugin-api@0.1.9
+  - @ceremium/core-plugin-api@0.1.9
   - @backstage/core-components@0.6.0
 
 ## 0.3.6
@@ -226,7 +226,7 @@
 - 9f1362dcc1: Upgrade `@material-ui/lab` to `4.0.0-alpha.57`.
 - Updated dependencies
   - @backstage/core-components@0.4.2
-  - @backstage/core-plugin-api@0.1.8
+  - @ceremium/core-plugin-api@0.1.8
 
 ## 0.3.4
 
@@ -241,7 +241,7 @@
 
 - Updated dependencies
   - @backstage/core-components@0.3.0
-  - @backstage/core-plugin-api@0.1.5
+  - @ceremium/core-plugin-api@0.1.5
 
 ## 0.3.2
 
@@ -255,7 +255,7 @@
   - Migration guide is here: https://material-table-core.com/docs/breaking-changes
 - Updated dependencies
   - @backstage/core-components@0.2.0
-  - @backstage/core-plugin-api@0.1.4
+  - @ceremium/core-plugin-api@0.1.4
   - @backstage/theme@0.2.9
 
 ## 0.3.1
@@ -278,7 +278,7 @@
 
 - 48c9fcd33: Migrated to use the new `@backstage/core-*` packages rather than `@backstage/core`.
 - Updated dependencies
-  - @backstage/core-plugin-api@0.1.3
+  - @ceremium/core-plugin-api@0.1.3
 
 ## 0.2.11
 

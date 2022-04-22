@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { AnalyticsApi, AnalyticsEvent } from '@backstage/core-plugin-api';
+import { AnalyticsApi, AnalyticsEvent } from '@ceremium/core-plugin-api';
 
 /**
  * Base implementation for the AnalyticsApi that does nothing.

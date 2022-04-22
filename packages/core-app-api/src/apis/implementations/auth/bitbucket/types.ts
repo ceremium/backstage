@@ -17,7 +17,7 @@
 import {
   ProfileInfo,
   BackstageIdentityResponse,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 
 /**
  * Session information for Bitbucket auth.

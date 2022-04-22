@@ -16,7 +16,7 @@
 
 import React, { useContext, ReactNode, PropsWithChildren } from 'react';
 import PropTypes from 'prop-types';
-import { ApiHolder } from '@backstage/core-plugin-api';
+import { ApiHolder } from '@ceremium/core-plugin-api';
 import { ApiAggregator } from './ApiAggregator';
 import {
   createVersionedValueMap,
@@ -35,7 +35,7 @@ export type ApiProviderProps = {
 const ApiContext = createVersionedContext<{ 1: ApiHolder }>('api-context');
 
 /**
- * Provides an {@link @backstage/core-plugin-api#ApiHolder} for consumption in
+ * Provides an {@link @ceremium/core-plugin-api#ApiHolder} for consumption in
  * the React tree.
  *
  * @public

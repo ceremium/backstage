@@ -1,7 +1,7 @@
 {
-  "name": "@backstage/app-defaults",
+  "name": "@ceremium/app-defaults",
   "description": "Provides the default wiring of a Backstage App",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "private": false,
   "publishConfig": {
     "access": "public",
@@ -14,7 +14,7 @@
   "homepage": "https://backstage.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/backstage/backstage",
+    "url": "https://github.com/ceremium/backstage",
     "directory": "packages/app-defaults"
   },
   "keywords": [
@@ -34,8 +34,8 @@
   },
   "dependencies": {
     "@backstage/core-components": "^0.9.2",
-    "@backstage/core-app-api": "^1.0.0",
-    "@backstage/core-plugin-api": "^1.0.0",
+    "@ceremium/core-app-api": "^1.0.0",
+    "@ceremium/core-plugin-api": "^1.0.0",
     "@backstage/plugin-permission-react": "^0.3.4",
     "@backstage/theme": "^0.2.15",
     "@material-ui/core": "^4.12.2",

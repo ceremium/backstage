@@ -19,7 +19,7 @@ import {
   ExternalRouteRef,
   RouteRef,
   SubRouteRef,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { AnyRouteRef } from './types';
 
 // Validates that there is no duplication of route parameter names

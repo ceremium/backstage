@@ -18,7 +18,7 @@ import { useElementFilter } from './useElementFilter';
 import { renderHook } from '@testing-library/react-hooks';
 import { attachComponentData } from './componentData';
 import { featureFlagsApiRef } from '../apis';
-import { LocalStorageFeatureFlags } from '@backstage/core-app-api';
+import { LocalStorageFeatureFlags } from '@ceremium/core-app-api';
 import { TestApiProvider } from '@backstage/test-utils';
 
 const WRAPPING_COMPONENT_KEY = 'core.blob.testing';

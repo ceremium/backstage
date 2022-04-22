@@ -5,12 +5,12 @@
 ```ts
 /// <reference types="react" />
 
-import { ApiRef } from '@backstage/core-plugin-api';
-import { BackstagePlugin } from '@backstage/core-plugin-api';
-import { IconComponent } from '@backstage/core-plugin-api';
-import { ProfileInfo } from '@backstage/core-plugin-api';
-import { RouteRef } from '@backstage/core-plugin-api';
-import { SessionApi } from '@backstage/core-plugin-api';
+import { ApiRef } from '@ceremium/core-plugin-api';
+import { BackstagePlugin } from '@ceremium/core-plugin-api';
+import { IconComponent } from '@ceremium/core-plugin-api';
+import { ProfileInfo } from '@ceremium/core-plugin-api';
+import { RouteRef } from '@ceremium/core-plugin-api';
+import { SessionApi } from '@ceremium/core-plugin-api';
 
 // Warning: (ae-forgotten-export) The symbol "Props" needs to be exported by the entry point index.d.ts
 // Warning: (ae-missing-release-tag) "DefaultProviderSettings" is exported by the package, but it is missing a release tag (@alpha, @beta, @public, or @internal)

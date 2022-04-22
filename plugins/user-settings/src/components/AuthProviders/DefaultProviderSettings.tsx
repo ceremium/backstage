@@ -24,7 +24,8 @@ import {
   microsoftAuthApiRef,
   bitbucketAuthApiRef,
   atlassianAuthApiRef,
-} from '@backstage/core-plugin-api';
+  openAMAuthApiRef,
+} from '@ceremium/core-plugin-api';
 
 type Props = {
   configuredProviders: string[];
@@ -85,6 +86,14 @@ export const DefaultProviderSettings = ({ configuredProviders }: Props) => (
         title="Atlassian"
         description="Provides authentication towards Atlassian APIs"
         apiRef={atlassianAuthApiRef}
+        icon={Star}
+      />
+    )}
+    {configuredProviders.includes('openam') && (
+      <ProviderSettingsItem
+        title="OpenAM"
+        description="Provides authentication towards OpenAM APIs"
+        apiRef={openAMAuthApiRef}
         icon={Star}
       />
     )}

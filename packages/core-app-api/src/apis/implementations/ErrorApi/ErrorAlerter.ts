@@ -18,7 +18,7 @@ import {
   ErrorApiError,
   ErrorApiErrorContext,
   AlertApi,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 
 /**
  * Decorates an ErrorApi by also forwarding error messages

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { githubAuthApiRef } from '@backstage/core-plugin-api';
+import { githubAuthApiRef } from '@ceremium/core-plugin-api';
 import { OAuth2 } from '../oauth2';
 import { OAuthApiCreateOptions } from '../types';
 

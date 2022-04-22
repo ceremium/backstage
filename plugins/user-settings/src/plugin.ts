@@ -18,7 +18,7 @@ import {
   createPlugin,
   createRoutableExtension,
   createRouteRef,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 
 export const settingsRouteRef = createRouteRef({
   id: 'user-settings',

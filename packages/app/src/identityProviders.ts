@@ -22,7 +22,8 @@ import {
   microsoftAuthApiRef,
   oneloginAuthApiRef,
   bitbucketAuthApiRef,
-} from '@backstage/core-plugin-api';
+  openAMAuthApiRef,
+} from '@ceremium/core-plugin-api';
 
 export const providers = [
   {
@@ -66,5 +67,11 @@ export const providers = [
     title: 'Bitbucket',
     message: 'Sign In using Bitbucket',
     apiRef: bitbucketAuthApiRef,
+  },
+  {
+    id: 'openam-auth-provider',
+    title: 'OpenAM',
+    message: 'Sign In using OpenAM',
+    apiRef: openAMAuthApiRef,
   },
 ];

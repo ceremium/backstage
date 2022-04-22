@@ -26,7 +26,7 @@ import {
   Tooltip,
   makeStyles,
 } from '@material-ui/core';
-import { appThemeApiRef, useApi } from '@backstage/core-plugin-api';
+import { appThemeApiRef, useApi } from '@ceremium/core-plugin-api';
 
 type ThemeIconProps = {
   id: string;

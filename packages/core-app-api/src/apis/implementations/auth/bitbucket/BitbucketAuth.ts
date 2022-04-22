@@ -18,7 +18,7 @@ import {
   BackstageIdentityResponse,
   bitbucketAuthApiRef,
   ProfileInfo,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 
 import { OAuthApiCreateOptions } from '../types';
 import { OAuth2 } from '../oauth2';

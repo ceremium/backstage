@@ -17,7 +17,7 @@
 import {
   BackstageIdentityResponse,
   ProfileInfo,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { z } from 'zod';
 
 /** @internal */

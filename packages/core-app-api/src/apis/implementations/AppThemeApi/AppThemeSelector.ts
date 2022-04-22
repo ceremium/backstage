@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { AppThemeApi, AppTheme } from '@backstage/core-plugin-api';
+import { AppThemeApi, AppTheme } from '@ceremium/core-plugin-api';
 import { Observable } from '@backstage/types';
 import { BehaviorSubject } from '../../../lib/subjects';
 

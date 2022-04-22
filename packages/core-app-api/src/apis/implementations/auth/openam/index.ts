@@ -14,23 +14,5 @@
  * limitations under the License.
  */
 
-import { AlertApi, AlertMessage } from '@ceremium/core-plugin-api';
-import { Observable } from '@backstage/types';
-import { PublishSubject } from '../../../lib/subjects';
-
-/**
- * Base implementation for the AlertApi that simply forwards alerts to consumers.
- *
- * @public
- */
-export class AlertApiForwarder implements AlertApi {
-  private readonly subject = new PublishSubject<AlertMessage>();
-
-  post(alert: AlertMessage) {
-    this.subject.next(alert);
-  }
-
-  alert$(): Observable<AlertMessage> {
-    return this.subject;
-  }
-}
+export { default as OpenAMAuth } from './OpenAMAuth';
+export * from './types';

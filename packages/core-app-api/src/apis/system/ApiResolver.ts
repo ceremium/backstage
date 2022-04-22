@@ -19,7 +19,7 @@ import {
   ApiHolder,
   AnyApiRef,
   TypesToApiRefs,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { ApiFactoryHolder } from './types';
 
 /**

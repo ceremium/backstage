@@ -1,7 +1,7 @@
 {
-  "name": "@backstage/plugin-user-settings",
+  "name": "@ceremium/plugin-user-settings",
   "description": "A Backstage plugin that provides a settings page",
-  "version": "0.4.2",
+  "version": "0.4.5",
   "main": "src/index.ts",
   "types": "src/index.ts",
   "license": "Apache-2.0",
@@ -17,7 +17,7 @@
   "homepage": "https://backstage.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/backstage/backstage",
+    "url": "https://github.com/ceremium/backstage",
     "directory": "plugins/user-settings"
   },
   "keywords": [
@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@backstage/core-components": "^0.9.2",
-    "@backstage/core-plugin-api": "^1.0.0",
+    "@ceremium/core-plugin-api": "^1.0.0",
     "@backstage/theme": "^0.2.15",
     "@material-ui/core": "^4.12.2",
     "@material-ui/icons": "^4.9.1",
@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "@backstage/cli": "^0.16.0",
-    "@backstage/core-app-api": "^1.0.0",
+    "@ceremium/core-app-api": "^1.0.0",
     "@backstage/dev-utils": "^1.0.0",
     "@backstage/test-utils": "^1.0.0",
     "@testing-library/jest-dom": "^5.10.1",

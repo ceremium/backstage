@@ -15,7 +15,7 @@
  */
 
 import { WebStorage } from './WebStorage';
-import { ErrorApi, StorageApi } from '@backstage/core-plugin-api';
+import { ErrorApi, StorageApi } from '@ceremium/core-plugin-api';
 
 describe('WebStorage Storage API', () => {
   const mockErrorApi = { post: jest.fn(), error$: jest.fn() };

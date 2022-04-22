@@ -27,7 +27,7 @@ import {
   SessionState,
   SessionApi,
   BackstageIdentityApi,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { Observable } from '@backstage/types';
 import { OAuth2Session } from './types';
 import { OAuthApiCreateOptions } from '../types';

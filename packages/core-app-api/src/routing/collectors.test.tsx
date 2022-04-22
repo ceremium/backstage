@@ -33,7 +33,7 @@ import {
   RouteRef,
   attachComponentData,
   BackstagePlugin,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { MemoryRouter, Routes, Route } from 'react-router-dom';
 
 const MockComponent = ({ children }: PropsWithChildren<{ path?: string }>) => (

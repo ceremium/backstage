@@ -29,7 +29,7 @@ import {
   featureFlagsApiRef,
   FeatureFlagState,
   useApi,
-} from '@backstage/core-plugin-api';
+} from '@ceremium/core-plugin-api';
 import { InfoCard } from '@backstage/core-components';
 import ClearIcon from '@material-ui/icons/Clear';
 

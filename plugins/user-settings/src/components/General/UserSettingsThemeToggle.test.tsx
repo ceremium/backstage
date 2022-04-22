@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { AppTheme, appThemeApiRef } from '@backstage/core-plugin-api';
+import { AppTheme, appThemeApiRef } from '@ceremium/core-plugin-api';
 import {
   renderWithEffects,
   TestApiRegistry,
@@ -26,7 +26,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import { fireEvent } from '@testing-library/react';
 import React from 'react';
 import { UserSettingsThemeToggle } from './UserSettingsThemeToggle';
-import { ApiProvider, AppThemeSelector } from '@backstage/core-app-api';
+import { ApiProvider, AppThemeSelector } from '@ceremium/core-app-api';
 
 const mockTheme: AppTheme = {
   id: 'light-theme',
